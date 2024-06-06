@@ -95,7 +95,10 @@ public class LibraryBookManagement {
             switch (choice) {
                 case 1:
                     bm.displayAllBooks();
-                    break;
+                    if (foundBook.size==0) {
+                    System.out.println("no book found!!");
+                    }
+                break;
                 case 2:
                     System.out.print("Enter ISBN to find: ");
                     String isbnToFind = scanner.nextLine();
