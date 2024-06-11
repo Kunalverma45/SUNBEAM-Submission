@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class BufferIO {
-	private static final String PATH_NAME = "Demo.dat";
+	private static final String PATH_NAME = "Demo.txt";
 	// Aim to read or Write the multiple bit of data inside the binary file
 	// 1 Extra Step Adding of BufferedOutputStream & BufferedInputStream
 	// As they are Abstract Classes Named as - FileOutputStream or FileInputStream

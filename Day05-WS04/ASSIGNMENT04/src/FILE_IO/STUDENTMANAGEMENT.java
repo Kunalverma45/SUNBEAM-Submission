@@ -69,14 +69,17 @@ public class STUDENTMANAGEMENT {
         STUDENTMANAGEMENT management = new STUDENTMANAGEMENT();
         management.loadStudents();
 
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
         int choice;
         do {
-            System.out.println("1. Display All Students");
+            System.out.println("QUESTION 02 ----------------------------------------------------------"
+            		+ "\nStoring details in BINARY FILE, using Serialisation & Deserialisation."
+            		+ "\n1. Display All Students");
             System.out.println("2. Retrieve Student Details");
             System.out.println("3. Admit New Student");
             System.out.println("4. Cancel Admission");
-            System.out.println("5. Exit");
+            System.out.println("5. Save & 1Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
 

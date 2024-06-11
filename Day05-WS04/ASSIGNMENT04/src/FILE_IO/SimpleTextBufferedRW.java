@@ -24,7 +24,8 @@ public class SimpleTextBufferedRW {
 
         // Add a new book
         System.out.println("\nAdding a new book:");
-        SimpleBook newBook = new SimpleBook("book-0010", Category.FICTION, 800, "10-10-2020", "Mohan", 25);
+        SimpleBook newBook = new SimpleBook("book-0010", Category.FICTION, 800,
+        		"10-10-2020", "Mohan", 25);
         bookManagement.addBook(newBook);
         bookManagement.displayAllBooks();
 
